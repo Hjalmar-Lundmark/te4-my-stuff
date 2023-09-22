@@ -1,0 +1,28 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    border: 1px black solid;
+}
+
+.todo-item > * {
+    width: 33%;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-left: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.deleteBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.deleteBtn > button {
+    font-size: 2rem;
+}
