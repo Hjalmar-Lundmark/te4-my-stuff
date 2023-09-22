@@ -32,7 +32,13 @@ function Mockpage() {
 
         msglist.appendChild(li);
 
+        // Copies to clipboard
+        navigator.clipboard.writeText(out);
+        // Add popup for copy
+
         document.getElementById('inputMock').value = ''
+
+        // create similiar list to todolist, button to copy each
     }
 
     return (
@@ -41,11 +47,9 @@ function Mockpage() {
             <Input doStuff={convertString}
                 id="inputMock"
                 placeholder="Lägg in sträng"
+                buttonName="Konvertera"
             />
-            <ul id="msglist">
-                <li>1</li>
-                <li>2</li>
-            </ul>
+            <ul id="msglist"></ul>
         </div>
     );
 }

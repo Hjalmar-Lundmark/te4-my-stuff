@@ -85,6 +85,7 @@ function Todolist() {
                     <Input doStuff={addTodo}
                         id='newTodo'
                         placeholder='Lägg till nytt todo'
+                        buttonName='Lägg till'
                     />
                 </div>
                 <div className="funcR">
