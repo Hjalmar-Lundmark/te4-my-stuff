@@ -4,7 +4,7 @@ function Todopage() {
     return (
         <>
             <div className='container'>
-                <h1>Att göra lista</h1>
+                <h2>Att göra lista</h2>
                 <Todolist />
             </div>
         </>

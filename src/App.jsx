@@ -10,12 +10,14 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
-        <main className='container section flow'>
-          <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/todo" element={<Todopage />} />
-          </Routes>
+        <main className='flow'>
+          <Navbar />
+          <div className='container section'>
+            <Routes>
+              <Route path="/" element={<Homepage />} />
+              <Route path="/todo" element={<Todopage />} />
+            </Routes>
+          </div>
         </main>
         <Footer />
       </BrowserRouter>

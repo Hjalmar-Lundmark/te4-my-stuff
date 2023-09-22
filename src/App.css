@@ -85,8 +85,8 @@ p {
 }
 
 .section {
-  padding-top: var(--space-xl);
-  padding-bottom: var(--space-xl);
+  padding-top: var(--space-l);
+  padding-bottom: var(--space-l);
 }
 
 .flow>*+* {
