@@ -13,6 +13,9 @@ function Navbar() {
                     <li className="nav-item">
                         <Link to='/todo'><p>Todo lista</p></Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to='/mock'><p>mOcK gEnErAtOr</p></Link>
+                    </li>
                 </div>
             </ul>
         </nav>

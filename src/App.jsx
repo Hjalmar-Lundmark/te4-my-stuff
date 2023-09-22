@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Homepage from './pages/Homepage'
 import Todopage from './pages/Todopage'
+import Mockpage from './pages/Mockpage'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <div className='container section'>
             <Routes>
               <Route path="/" element={<Homepage />} />
+              <Route path="/mock" element={<Mockpage />} />
               <Route path="/todo" element={<Todopage />} />
             </Routes>
           </div>
